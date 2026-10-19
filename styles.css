@@ -1733,27 +1733,27 @@ details[open] .faq-plus::after {
     position: fixed;
     z-index: 90;
     display: block;
-    left: 12px;
-    right: 12px;
-    bottom: max(12px, env(safe-area-inset-bottom));
 
-    box-sizing: border-box;
+    left: 16px;
+    right: 16px;
+
+    bottom: max(16px, env(safe-area-inset-bottom));
 
     padding: 6px;
+
     border: 1px solid rgba(125, 211, 252, .16);
     border-radius: 17px;
+
     background: rgba(3, 7, 18, .8);
 
     backdrop-filter: blur(18px);
     box-shadow: 0 10px 40px rgba(0, 0, 0, .35);
 
-    width: auto;
-    max-width: calc(100vw - 24px);
+    box-sizing: border-box;
   }
 
   .mobile-sticky-cta .button {
     width: 100%;
-    max-width: 100%;
     box-sizing: border-box;
     min-height: 47px;
   }
